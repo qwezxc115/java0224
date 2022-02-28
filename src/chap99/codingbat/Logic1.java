@@ -9,7 +9,6 @@ public class Logic1 {
 		}
 	}
 
-	
 	public int dateFashion(int you, int date) {
 		int result = 1;
 
@@ -25,7 +24,6 @@ public class Logic1 {
 
 	}
 
-	
 	public boolean squirrelPlay(int temp, boolean isSummer) {
 		if (isSummer) {
 			return temp >= 60 && temp <= 100;
@@ -34,7 +32,6 @@ public class Logic1 {
 		}
 	}
 
-	
 	public int caughtSpeeding(int speed, boolean isBirthday) {
 		int limit1 = 61;
 		int limit2 = 81;
@@ -53,7 +50,6 @@ public class Logic1 {
 		}
 	}
 
-	
 	public int sortaSum(int a, int b) {
 		if ((a + b >= 10) && (a + b <= 19)) {
 			return 20;
@@ -62,7 +58,6 @@ public class Logic1 {
 		}
 	}
 
-	
 //	public String alarmClock(int day, boolean vacation) {
 //		if ((day >= 1 && day <= 5) && vacation == true) {
 //			return "10:00";
@@ -74,7 +69,7 @@ public class Logic1 {
 //			return "10:00";
 //		}
 //	}
-	
+
 	public String alarmClock(int day, boolean vacation) {
 		String early;
 		String late;
@@ -103,6 +98,38 @@ public class Logic1 {
 
 		return result;
 	}
-	
-	
+
+	public boolean in1To10(int n, boolean outsideMode) {
+		if (outsideMode) {
+			return n <= 1 || n >= 10;
+		} else {
+			return n >= 1 && n <= 10;
+		}
+	}
+
+	public boolean specialEleven(int n) {
+		if (n % 11 == 0 || n % 11 == 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean more20(int n) {
+		if (n % 20 == 1 || n % 20 == 2) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean old35(int n) {
+		if (n % 3 == 0 && n % 5 == 0) {
+			return false;
+		} else if (n % 3 != 0 && n % 5 != 0) {
+			return false;
+		} else {
+			return true;
+		}
+	}
 }
