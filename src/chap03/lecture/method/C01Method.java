@@ -4,6 +4,7 @@ public class C01Method {
 	public static void main(String[] args) {
 		
 		System.out.println("명령문 1");
+		mymethod1();
 		System.out.println("명령문 2");
 		mymethod1(); // 메소드 호출
 		
