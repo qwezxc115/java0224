@@ -1,6 +1,27 @@
 package chap99.codingbat;
 
 public class Warmup1 {
+
+
+
+	public boolean posNeg(int a, int b, boolean negative) {
+		if (negative) {
+			return a < 0 && b < 0;
+		} else {
+			return (a * b) < 0;
+		}
+	}
+
+	public boolean nearHundred(int n) {
+		if (n >= 90 && n <= 110) {
+			return true;
+		} else if (n >= 190 && n <= 210) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	public boolean makes10(int a, int b) {
 
 		int sum = a + b;
