@@ -2,6 +2,15 @@ package chap99.codingbat.Array2;
 
 public class Array2 {
 
+	public int[] shiftLeft(int[] nums) {
+		int[] result = new int[nums.length];
+		for (int i = 0; i < nums.length; i++) {
+			result[i] = nums[(i + 1) % nums.length]; // i+1 = 마지막 인덱스, 길이로 나눈 나머지는 0이므로 i에 0이 들어감
+		}
+		return result;
+	}
+
+	
 	public boolean lucky13(int[] nums) {
 		boolean has1 = false;
 		boolean has3 = false;
