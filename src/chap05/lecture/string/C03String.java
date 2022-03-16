@@ -35,7 +35,7 @@ public class C03String {
 		System.out.println(s7.indexOf("을")); // 3
 		System.out.println(s7.indexOf("자바")); // -1 (없으면)
 
-		// substring(int, int) : 이 문자열의 부분 문자열을 리턴
+		// substring(in, int) : 이 문자열의 부분 문자열을 리턴
 		System.out.println(s7.substring(8, 11)); // 종료 index는 포함하지 않는다
 		System.out.println(s7.substring(12, 16)); // 배울 수
 		
