@@ -10,7 +10,6 @@ public class Array2 {
 		return result;
 	}
 
-	
 	public boolean lucky13(int[] nums) {
 		boolean has1 = false;
 		boolean has3 = false;
@@ -101,16 +100,10 @@ public class Array2 {
 		int max = nums[0];
 		int min = nums[0];
 
-		for (int i = 1; i < nums.length; i++) {
-			if (max < nums[i]) {
-				max = nums[i];
-			}
-
-			if (min > nums[i]) {
-				min = nums[i];
-			}
+		for (int num : nums) {
+			min = Math.min(min, num);
+			max = Math.max(max, num);
 		}
-
 		return max - min;
 	}
 

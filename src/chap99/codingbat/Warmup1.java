@@ -2,7 +2,18 @@ package chap99.codingbat;
 
 public class Warmup1 {
 
+	public int close10(int a, int b) {
+		int adiff = Math.abs(a - 10);
+		int bdiff = Math.abs(b - 10);
 
+		if (adiff < bdiff) {
+			return a;
+		} else if (bdiff < adiff) {
+			return b;
+		} else {
+			return 0;
+		}
+	}
 
 	public boolean posNeg(int a, int b, boolean negative) {
 		if (negative) {
