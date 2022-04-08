@@ -7,18 +7,17 @@ public class App03 {
 		t1.start();
 		t2.start();
 		
-		for (int i = 0; i < 1000000; i++) {
-			System.out.println("**********");
+		for (int i = 0; i < 100; i++) {
+			System.out.println("*************");
 		}
-		
 	}
 }
 
 class MyThread31 extends Thread {
 	@Override
 	public void run() {
-		for (int i = 0; i < 1000000; i++) {
-			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!");
+		for (int i = 0; i < 100; i++) {
+			System.out.println("!!!!!!!!!!!!!");
 		}
 	}
 }
@@ -26,8 +25,8 @@ class MyThread31 extends Thread {
 class MyThread32 extends Thread {
 	@Override
 	public void run() {
-		for (int i = 0; i < 1000000; i++) {
-			System.out.println("#######################################");
+		for (int i = 0; i < 100; i++) {
+			System.out.println("?????????????");
 		}
 	}
 }

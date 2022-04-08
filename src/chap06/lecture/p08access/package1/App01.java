@@ -10,7 +10,7 @@ public class App01 {
 		System.out.println(com1.str1);
 		
 		// access modifier : 접근 제한자, 접근 지정자
-		// class, 생성자, 필드, 메소드의 접근 어디까지 허용할 것인지 결정해주는 키워드
+		// class, 생성자, 필드, 메소드의 접근을 어디까지 허용할 것인지 결정해주는 키워드
 		
 		// 총 4가지 : public, protected, default(package private), private
 		
@@ -20,8 +20,3 @@ public class App01 {
 		// private : 클래스 내에서만 접근 가능
 	}
 }
-
-
-
-
-

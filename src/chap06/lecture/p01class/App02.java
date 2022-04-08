@@ -4,10 +4,10 @@ public class App02 {
 
 }
 
-class Computer {
+class Computer{
 	
 }
 
-class Keyboard {
+class Keyboard{
 	
 }

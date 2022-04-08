@@ -11,12 +11,12 @@ import java.net.Socket;
 public class App01Server {
 	public static void main(String[] args) throws Exception {
 		ServerSocket serverSocket = new ServerSocket();
-		serverSocket.bind(new InetSocketAddress("172.30.1.27", 38080));
-		
-		System.out.println("[연결 기다림]");
+		serverSocket.bind(new InetSocketAddress("192.168.10.100", 38080));
+
+		System.out.println("[연결 대기중]");
 		Socket socket = serverSocket.accept();
 		
-		System.out.println("[서버쪽 소켓 생성됨]");
+		System.out.println("[서버 소켓 생성됨]");
 		
 		OutputStream os = socket.getOutputStream();
 		Writer wr = new OutputStreamWriter(os);
@@ -30,10 +30,7 @@ public class App01Server {
 		socket.close();
 		serverSocket.close();
 		
-		System.out.println("프로그램 실행 종료..");
+		System.out.println("프로그램 실행 종료...");
+
 	}
 }
-
-
-
-

@@ -12,7 +12,7 @@ public class App06 {
 
 		String path = "picture/다형성01.png";
 
-		InputStream is = null;
+		InputStream is = null; // 초기화 시켜줌
 		try {
 			is = new FileInputStream(path);
 
@@ -31,17 +31,16 @@ public class App06 {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
+		} finally { // 무조건 실행됨
 			try {
 				if (is != null) {
-					is.close(); // 꼭 작성
+					is.close(); // 꼭 작성					
 				}
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} 
+			}
 		}
-
 
 	}
 }

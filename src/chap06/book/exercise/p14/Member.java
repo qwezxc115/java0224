@@ -1,4 +1,4 @@
-package chap06.book.exercise.p14;
+package chap06.book.Exercise.p14;
 
 public class Member {
 	String name;
@@ -6,11 +6,8 @@ public class Member {
 	String password;
 	int age;
 	
-	public Member(String name, String id) {
-		super();
+	Member(String name, String id) {
 		this.name = name;
 		this.id = id;
 	}
-	
-
 }

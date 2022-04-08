@@ -7,5 +7,6 @@ public class App02 {
 		Computer com1 = new Computer();
 		com1.str1 = "spring"; // package private 필드여서 접근 불가능
 		com1.str3 = "react";
+		
 	}
 }

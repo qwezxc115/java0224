@@ -1,4 +1,4 @@
-package chap11.book.exercise.p04;
+package chap11.book.Exercise.p04;
 
 public class MemberExample {
 	public static void main(String[] args) {

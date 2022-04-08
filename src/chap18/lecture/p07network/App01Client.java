@@ -11,8 +11,8 @@ public class App01Client {
 	public static void main(String[] args) throws Exception {
 		Socket socket = new Socket();
 		
-		socket.connect(new InetSocketAddress("172.30.1.27", 38080), 5000);
-		System.out.println("[클라이언트쪽 소켓 생성됨]");
+		socket.connect(new InetSocketAddress("192.168.10.100", 38080), 5000);
+		System.out.println("[클라이언트 소켓 생성됨]");
 		
 		InputStream is = socket.getInputStream();
 		Reader rd = new InputStreamReader(is);
@@ -26,13 +26,11 @@ public class App01Client {
 		br.close();
 		rd.close();
 		is.close();
-		if (socket != null) {
+		
+		if(socket != null) {
 			socket.close();
 		}
-		System.out.println("프로그램 종료..");
+		
+		System.out.println("프로그램 종료...");
 	}
 }
-
-
-
-

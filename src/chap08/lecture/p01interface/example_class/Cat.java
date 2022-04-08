@@ -17,7 +17,5 @@ public class Cat extends Feline implements Pet {
 	public void sit() {
 		System.out.println("고양이가 도망갑니다.");
 	}
+
 }
-
-
-

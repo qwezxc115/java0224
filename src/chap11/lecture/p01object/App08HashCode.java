@@ -2,27 +2,28 @@ package chap11.lecture.p01object;
 
 public class App08HashCode {
 	public static void main(String[] args) {
-		Mouse a1 = new Mouse("lg", 3000);
-		Mouse a2 = new Mouse("ss", 5000);
-		Mouse a3 = new Mouse("lg", 4000);
-		Mouse a4 = new Mouse("lg", 3000);
-		Mouse a5 = new Mouse("ss", 5000);
+		Mouse m1 = new Mouse("lg", 3000);
+		Mouse m2 = new Mouse("ss", 5000);
+		Mouse m3 = new Mouse("lg", 4000);
+		Mouse m4 = new Mouse("lg", 3000);
+		Mouse m5 = new Mouse("ss", 5000);
 		
-		System.out.println(a1.hashCode());
-		System.out.println(a2.hashCode());
-		System.out.println(a3.hashCode());
-		System.out.println(a4.hashCode());
-		System.out.println(a5.hashCode());
+		System.out.println(m1.hashCode());
+		System.out.println(m2.hashCode());
+		System.out.println(m3.hashCode());
+		System.out.println(m4.hashCode());
+		System.out.println(m5.hashCode());
 		
-		System.out.println(a1.equals(a4)); // true
-		System.out.println(a2.equals(a5)); // true
+		System.out.println(m1.equals(m4)); // true
+		System.out.println(m2.equals(m5)); // true
+		
 	}
 }
 
 class Mouse {
 	private String model;
 	private int price;
-	
+
 	public Mouse(String model, int price) {
 		this.model = model;
 		this.price = price;
@@ -55,6 +56,5 @@ class Mouse {
 			return false;
 		return true;
 	}
-	
-	
+
 }

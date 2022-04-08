@@ -8,23 +8,24 @@ interface MyInterface7<T> {
 	public void method(T param);
 }
 
-// generic type 상속(또는 구현)시 하위 클래스도 generic type
+// generic type 상속(또는 구현)시 하위 클래스도 generic type이어야 한다.
 class MyClass1<T> implements MyInterface7<T> {
+
 	@Override
 	public void method(T param) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
 
 // 하위 클래스에 type parameter 추가 가능
 class MyClass2<T, U> implements MyInterface7<T> {
 	private U field;
-	
+
 	@Override
 	public void method(T param) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
 
@@ -33,13 +34,6 @@ class MyClass3 implements MyInterface7<String> {
 	@Override
 	public void method(String param) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
-
-
-
-
-
-
-

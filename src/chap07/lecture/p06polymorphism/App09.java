@@ -9,20 +9,16 @@ public class App09 {
 		Animal animal = new StreetCat();
 		animal.breathe();
 		animal.cry();
-		
-		// angry 메소드 실행하고 싶다.
-		Chihuahua chihuahua = (Chihuahua) animal; // ClassCastException 발생
+
+		// angry 메소드를 실행하고 싶다.
+		Chihuahua chihuahua = (Chihuahua) animal;
 		chihuahua.angry();
+		
+		System.out.println("명령문 진행 계속...........");
 		
 		// *강제 형변환(casting)는 매우 주의해서 작성해야함.
 		
 		System.out.println("명령문 진행 계속............");
+		
 	}
 }
-
-
-
-
-
-
-

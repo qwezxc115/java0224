@@ -6,7 +6,7 @@ public class C07PrimitiveType {
 		method1(i1);
 		System.out.println(i1);
 	}
-	
+
 	public static void method1(int i) {
 		i = 300;
 	}

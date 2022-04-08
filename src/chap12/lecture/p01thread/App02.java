@@ -4,10 +4,10 @@ public class App02 {
 	public static void main(String[] args) {
 		Thread t1 = new MyThread1();
 		t1.start();
-		
-		// .. 메인 메소드 계속 실행....
-		for (int i = 0; i < 1000000; i++) {
-			System.out.println("메인 쓰레드 계속 실행!!!!");
+
+		// ... 메인 메소드 계속 실행 ...
+		for (int i = 0; i < 100; i++) {
+			System.out.println("메인 쓰레드 계속 실행!!!");
 		}
 	}
 }
@@ -15,15 +15,8 @@ public class App02 {
 class MyThread1 extends Thread {
 	@Override
 	public void run() {
-		for (int i = 0; i < 1000000; i++) {
-			System.out.println("thread1 실행 중.....");
+		for (int i = 0; i < 100; i++) {
+			System.out.println("tread1 실행 중....");
 		}
 	}
 }
-
-
-
-
-
-
-

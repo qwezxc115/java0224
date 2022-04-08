@@ -8,7 +8,7 @@ public class App04 {
 		
 		Animal animal = new Cat();
 		
-		Chihuahua chihuahua = (Chihuahua) animal; // Exception
+		Chihuahua chihuahuaa = (Chihuahua) animal; // Exception
 		
 		System.out.println("프로그램 실행 계속....");
 		

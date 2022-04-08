@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
 @Target(METHOD)
 public @interface MyAnnotation7 {
 	String[] value() default "hello";
-
+	
 	int price() default 900;
 }

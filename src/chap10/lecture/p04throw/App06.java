@@ -16,8 +16,8 @@ public class App06 {
 			e.printStackTrace();
 		}
 	}
-	
-	private static void method1() throws FileNotFoundException, IOException{
+
+	private static void method1() throws FileNotFoundException, IOException {
 		FileReader fr = new FileReader("");
 		fr.read();
 	}

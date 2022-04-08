@@ -1,4 +1,4 @@
-package chap06.book.exercise.p16;
+package chap06.book.Exercise.p16;
 
 public class PrinterExample {
 	public static void main(String[] args) {
@@ -7,5 +7,6 @@ public class PrinterExample {
 		printer.println(true);
 		printer.println(5.7);
 		printer.println("홍길동");
+		
 	}
 }

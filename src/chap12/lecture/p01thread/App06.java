@@ -7,10 +7,10 @@ public class App06 {
 		Thread t1 = new MyThread61();
 		Thread t2 = new MyThread62();
 		
-		t1.start();
-		t2.start();
+		t1.start(); // sound
+		t2.start(); // message
 		
-		System.out.println("메인 메소드 실행계속........");
+		System.out.println("메인 메소드 실행 계속....");
 	}
 }
 
@@ -23,9 +23,8 @@ class MyThread61 extends Thread {
 			toolkit.beep();
 
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -37,14 +36,12 @@ class MyThread62 extends Thread {
 	public void run() {
 		for (int i = 0; i < 5; i++) {
 			System.out.println("띠링");
-			
+
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 	}
-
 }

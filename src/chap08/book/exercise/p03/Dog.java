@@ -1,8 +1,11 @@
-package chap08.book.exercise.p03;
+package chap08.book.Exercise.p03;
 
-public class Dog implements Soundable {
+public class Dog implements Soundable{
+
 	@Override
 	public String sound() {
-		return "멍멍";
+		String dogsound = "멍멍";
+		return dogsound;
 	}
+	
 }

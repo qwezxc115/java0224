@@ -1,8 +1,8 @@
 package chap08.lecture.p01interface;
 
-// 구현클래스(구상클래스, 구체클래스)
+// 구현클래스 (구상클래스, 구체클래스)
 // concrete class
-public class MyClass3 implements MyInterface3 {
+public class MyClass3 implements Myinterface3 {
 
 	@Override
 	public void method1() {
@@ -11,17 +11,17 @@ public class MyClass3 implements MyInterface3 {
 
 	@Override
 	public void method2() {
-		
+
 	}
 
 	@Override
 	public void method3() {
-		
+
 	}
 
 	@Override
 	public void method4() {
-		
+
 	}
-	
+
 }

@@ -6,11 +6,11 @@ public class App02 {
 		Desk d2 = new Desk();
 		
 		System.out.println(d1.color);
-		System.out.println(d1.height);
+		System.out.println(d1.heigth);
 		System.out.println(d1.weight);
-		
+
 		System.out.println(d2.color);
-		System.out.println(d2.height);
+		System.out.println(d2.heigth);
 		System.out.println(d2.weight);
 		
 		d2.color = "red";
@@ -19,14 +19,7 @@ public class App02 {
 		
 		Car c1 = new Car();
 		System.out.println(c1.color);
-		System.out.println(c1.model);
 		System.out.println(c1.speed);
+		System.out.println(c1.model);
 	}
 }
-
-
-
-
-
-
-

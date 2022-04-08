@@ -9,7 +9,7 @@ public class Manager {
 	}
 	
 	public static Manager getInstance() {
-		if (manager == null) {
+		if(manager == null) {
 			manager = new Manager();
 		}
 		

@@ -10,26 +10,12 @@ public class App08 {
 		list1.add("spring");
 		list1.add("hello");
 		list1.add("jsp");
-		list1.add("friday");
+		list1.add("firday");
 
+		// forEach() : 각 element마다 실행됨
 		list1.forEach(e -> System.out.println(e));
 
 		// 절반의 문자열 출력
-		for (String s : list1) {
-			System.out.println(s.substring(0, s.length() / 2));
-		}
-
-		list1.forEach(e -> System.out.println(e.substring(0, e.length() / 2)));
+		list1.forEach(s -> System.out.println(s.substring(0, s.length() / 2)));
 	}
-	
 }
-
-
-
-
-
-
-
-
-
-

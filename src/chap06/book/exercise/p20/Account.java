@@ -1,4 +1,4 @@
-package chap06.book.exercise.p20;
+package chap06.book.Exercise.p20;
 
 public class Account {
 	private String ano;

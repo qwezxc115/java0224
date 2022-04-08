@@ -10,13 +10,14 @@ public class App04 {
 		String path = "output/FilterStream04.txt";
 		OutputStream os = new FileOutputStream(path);
 		Writer writer = new OutputStreamWriter(os);
-		
-//		os.write('a');
-//		os.write('한');
+
+		//		os.write('a');
+		//		os.write('한');
 		writer.write('b');
 		writer.write('글');
-		
+
 		writer.close();
 		os.close();
+		System.out.println("정상 작동");
 	}
 }

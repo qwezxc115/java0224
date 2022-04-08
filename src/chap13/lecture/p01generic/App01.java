@@ -12,11 +12,11 @@ public class App01 {
 
 class Container1 {
 	private String content;
-	
+
 	public String getContent() {
 		return content;
 	}
-	
+
 	public void setContent(String content) {
 		this.content = content;
 	}

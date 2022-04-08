@@ -1,8 +1,12 @@
 package chap06.book.s060802;
 
 public class Car {
+	//필드
 	int gas;
 
+	//생성자
+
+	//메소드
 	void setGas(int gas) {
 		this.gas = gas;
 	}
@@ -15,7 +19,7 @@ public class Car {
 		System.out.println("gas가 있습니다.");
 		return true;
 	}
-	
+
 	void run() {
 		while (true) {
 			if (gas > 0) {

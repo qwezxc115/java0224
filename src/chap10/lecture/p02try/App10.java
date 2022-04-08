@@ -21,6 +21,3 @@ public class App10 {
 		System.out.println("프로그램 실행 계속...");
 	}
 }
-
-
-

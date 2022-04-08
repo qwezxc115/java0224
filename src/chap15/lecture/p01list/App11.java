@@ -10,26 +10,29 @@ public class App11 {
 		list.add(Arrays.asList(95, 86));
 		list.add(Arrays.asList(83, 92, 96));
 		list.add(Arrays.asList(78, 83, 93, 87, 88));
-		
-		int sum = 0, cnt = 0;
-		// 합계(881), 평균(88.1)
+
+		int sum = 0;
+		double avg = 0;
+		int cnt = 0;
+
+		/*
+		for (int i = 0; i < list.size(); i++) {
+			for (int j = 0; j < list.get(i).size(); j++) {
+				sum += list.get(i).get(j);
+				cnt++;
+			}
+		}
+		*/
+
 		for (List<Integer> row : list) {
-//			System.out.println(row);
 			for (Integer score : row) {
-//				System.out.println(score);
 				sum += score;
 				cnt++;
 			}
 		}
+		System.out.println("합계: " + sum);
 		
-		System.out.println(sum);
-		System.out.println(sum / (double) cnt);
+		avg = (double) sum / cnt;
+		System.out.println("평균: " + avg);
 	}
 }
-
-
-
-
-
-
-

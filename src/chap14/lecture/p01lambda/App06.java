@@ -10,6 +10,7 @@ public class App06 {
 			}
 		};
 //		local = 4;
+
 		MyInterface6 o2 = () -> System.out.println(local);
 	}
 }
@@ -18,8 +19,3 @@ public class App06 {
 interface MyInterface6 {
 	void method1();
 }
-
-
-
-
-

@@ -8,6 +8,6 @@ public class Chihuahua extends Canine {
 	}
 	
 	public void angry() {
-		System.out.println("화가 난다!!!!!");
+		System.out.println("화가 난다 !!!!!!");
 	}
 }

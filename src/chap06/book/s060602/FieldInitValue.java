@@ -1,6 +1,7 @@
 package chap06.book.s060602;
 
 public class FieldInitValue {
+	// field
 	byte byteField;
 	short shortField;
 	int intField;

@@ -4,9 +4,9 @@ public class App03 {
 
 }
 
-
 //@MyAnnotation3
 class MyClass3 {
+	
 //	@MyAnnotation3
 	String field1;
 	

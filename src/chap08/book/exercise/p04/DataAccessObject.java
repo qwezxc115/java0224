@@ -1,7 +1,6 @@
-package chap08.book.exercise.p04;
+package chap08.book.Exercise.p04;
 
 public interface DataAccessObject {
-
 	void select();
 
 	void insert();
@@ -9,5 +8,4 @@ public interface DataAccessObject {
 	void update();
 
 	void delete();
-	
 }

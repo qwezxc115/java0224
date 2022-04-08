@@ -9,7 +9,7 @@ public class App03 {
 			System.out.println(e.getMessage());
 		}
 	}
-	
+
 	private static void method1() throws Exception {
 		throw new Exception("사용자 메시지!@!@!@!@");
 	}

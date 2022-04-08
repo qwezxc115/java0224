@@ -5,9 +5,8 @@ public class App04 {
 		System.out.println(Math.E);
 		System.out.println(Math.PI);
 		System.out.println(Math.PI * 3 * 2);
-		
+
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
-		
 	}
 }

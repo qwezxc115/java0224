@@ -5,20 +5,23 @@ import java.util.List;
 
 public class App08 {
 	public static void main(String[] args) {
-		List<Integer> list = new ArrayList<>();
+		List<Integer> list1 = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
-			list.add(i);
+			list1.add(i);
 		}
-		System.out.println(list);
-		
+		System.out.println(list1);
+
 		// 각 element를 2배값으로 변경
-		/*
-		for (int i = 0; i < list.size(); i++) {
-			Integer origin = list.get(i);
-			list.set(i, origin * 2);
-		}*/
-		list.replaceAll(e -> e * 2);
-		
-		System.out.println(list);
+		//		List<Integer> list2 = new ArrayList<>();
+		//		for (int i = 0; i < 10; i++) {
+		//			list2.add(i*2);
+		//		}
+		//		System.out.println(list2);
+
+		for (int i = 0; i < list1.size(); i++) {
+			Integer origin = list1.get(i);
+			list1.set(i, origin*2);
+		}
+		System.out.println(list1);
 	}
 }

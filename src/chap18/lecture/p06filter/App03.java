@@ -6,26 +6,27 @@ import java.io.Reader;
 
 public class App03 {
 	public static void main(String[] args) throws Exception {
+
 		String path = "output/FilterExample51.txt";
 		normalReader(path);
 		bufferedReader(path);
 	}
-	
+
 	private static void bufferedReader(String path) throws Exception {
 		Reader rd = new FileReader(path);
 		Reader br = new BufferedReader(rd);
-		
+
 		int data = 0;
-		
+
 		long start = System.currentTimeMillis();
 		while ((data = br.read()) != -1) {
-//			System.out.println();
+			//			System.out.println();
 		}
 		long end = System.currentTimeMillis();
-		
+
 		System.out.println(end - start);
-		
-		br.close();
+
+		br.read();
 		rd.close();
 	}
 
@@ -36,7 +37,7 @@ public class App03 {
 
 		long start = System.currentTimeMillis();
 		while ((data = rd.read()) != -1) {
-//			System.out.println();
+			//			System.out.println();
 		}
 
 		long end = System.currentTimeMillis();

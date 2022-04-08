@@ -7,18 +7,19 @@ public class App02 {
 		String path = "output/참조타입01_copy.png";
 		File file1 = new File(path);
 		
-		System.out.println(file1.exists());
+		System.out.println(file1.exists()); // true
+		
 		file1.delete(); // 지우기
 		
-		System.out.println(file1.exists());
+		System.out.println(file1.exists()); // false
 		
-		path = "output/other";
+		path = "output/ohter";
 		File file2 = new File(path);
 		
-		file2.mkdir(); // 폴더하나 만들기
+		file2.mkdir(); // 폴더 하나 만들기
 		
 		path = "output/other1/other2/other3";
 		File file3 = new File(path);
-		file3.mkdirs(); // 여러폴더 만들기
+		file3.mkdirs(); // 여러 폴더 만들기
 	}
 }

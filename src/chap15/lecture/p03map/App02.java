@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class App02 {
+
 	public static void main(String[] args) {
 		Map<Computer, Integer> map = new HashMap<>();
 		map.put(new Computer("samsung", "galaxy"), 1);
@@ -64,5 +65,4 @@ class Computer {
 		return true;
 	}
 
-	
 }

@@ -9,7 +9,7 @@ public class App10 {
 		list.add(new ArrayList<String>());
 		list.add(new ArrayList<String>());
 		list.add(new ArrayList<>());
-		
+
 		list.get(0).add("java");
 		list.get(0).add("spring");
 		list.get(1).add("jimin");
@@ -19,15 +19,5 @@ public class App10 {
 		list.get(2).add("summer");
 		
 		System.out.println(list);
-		
-		
 	}
 }
-
-
-
-
-
-
-
-

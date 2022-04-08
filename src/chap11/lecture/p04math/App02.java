@@ -1,4 +1,4 @@
-package chap11.lecture.p04math;
+package chap11.lecture.p04Math;
 
 //import static java.lang.Math.abs;
 import static java.lang.Math.*;
@@ -6,7 +6,7 @@ import static java.lang.Math.*;
 public class App02 {
 	public static void main(String[] args) {
 		Math.abs(-10);
-		
+
 		// import static
 		abs(-20);
 		min(3, 5);

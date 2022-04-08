@@ -6,19 +6,19 @@ import java.io.IOException;
 
 public class App05 {
 	public static void main(String[] args) {
-		// 하나 try블럭 사용
-		// 하나이상의 catch 블럭 사용
-		// 컴파일 오류 해결
-		
+		// try/catch 블록으로 묶기
+		//컴파일 오류 해결
+
+		FileReader fr;
 		try {
-			FileReader fr = new FileReader("");
+			fr = new FileReader("");
 			fr.read();
 		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 }
-
-

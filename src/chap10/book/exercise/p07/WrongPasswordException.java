@@ -1,4 +1,4 @@
-package chap10.book.exercise.p07;
+package chap10.book.Exercise.P07;
 
 public class WrongPasswordException extends Exception {
 	public WrongPasswordException() {

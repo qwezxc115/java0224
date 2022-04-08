@@ -8,28 +8,28 @@ public class App01 {
 	public static void main(String[] args) {
 		// Set : 순서없고, 중복x
 		// 구현클래스 : HashSet
-		
+
 		Set<String> set = new HashSet<>();
-		
+
 		// add : element 추가
 		set.add("jimin");
 		set.add("suga");
 		set.add("jin");
 		set.add("rm");
-		
+
 		// size : 크기
-		System.out.println(set.size());
-		
+		System.out.println(set.size()); // 4
+
 		set.add("rm"); // 중복 허용 x
-		System.out.println(set.size());
-		
+		System.out.println(set.size()); // 4
+
 		// 탐색
 		// 향상된 for
 		for (String item : set) {
 			// 순서 보장 안됨
 			System.out.println(item);
 		}
-		
+
 		// Iterator
 		Iterator<String> iter = set.iterator();
 		while (iter.hasNext()) {
@@ -42,16 +42,8 @@ public class App01 {
 		set.remove("winter");
 		System.out.println(set.size());
 		
-		// element 있는지?
+		// element가 있는지?
 		System.out.println(set.contains("rm")); // false
 		System.out.println(set.contains("jin")); // true
 	}
 }
-
-
-
-
-
-
-
-

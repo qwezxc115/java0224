@@ -9,7 +9,5 @@ public class App07 {
 		
 		Helper helper = (Helper) pet; // ClassCastException
 		helper.help();
-		
-		
 	}
 }

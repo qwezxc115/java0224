@@ -10,13 +10,12 @@ public class App05 {
 	public static void main(String[] args) {
 		String path = "output/OutputStreamEx05.txt";
 		try (OutputStream os = new FileOutputStream(path);) {
-			byte[] datas = {3, 9, -120, 127, 99, 98, 12};
-			
-			os.write(datas, 0, 3); // 3, 9, -120
-			os.write(datas, 1, 4); // 9, -120, 127, 99
-			
+			byte[] datas = { 3, 9, -120, 127, 99, 98, 12 };
+
+			os.write(datas, 0, 3);
+			os.write(datas, 1, 4);
+
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("쓰기 종료!");
@@ -29,18 +28,9 @@ public class App05 {
 			System.out.println((byte) is.read());
 			System.out.println((byte) is.read());
 			System.out.println((byte) is.read());
-			System.out.println((byte) is.read());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 }
-
-
-
-
-
-
-

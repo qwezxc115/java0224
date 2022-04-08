@@ -9,6 +9,5 @@ public class App04 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 }

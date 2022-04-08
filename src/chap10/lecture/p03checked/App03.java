@@ -8,8 +8,8 @@ public class App03 {
 		try {
 			FileReader fr = new FileReader("");
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 	}
 }

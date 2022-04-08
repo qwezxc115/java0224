@@ -6,7 +6,6 @@ public class App07 {
 		Thread t2 = new MyThread72();
 		t1.start();
 		t2.start();
-		
 	}
 }
 
@@ -14,10 +13,10 @@ class MyThread71 extends Thread {
 	@Override
 	public void run() {
 		int localVar = 0;
-		for (int i = 0; i < 10000000; i++) {
+		for (int i = 0; i < 1000000; i++) {
 			localVar++;
 		}
-		System.out.println("thread71 : " + localVar);
+		System.out.println("thread71: " + localVar);
 	}
 }
 
@@ -25,11 +24,9 @@ class MyThread72 extends Thread {
 	@Override
 	public void run() {
 		int localVar = 0;
-		for (int i = 0; i < 10000000; i++) {
+		for (int i = 0; i < 1000000; i++) {
 			localVar++;
 		}
-		System.out.println("thread72 : " + localVar);
+		System.out.println("thread72: " + localVar);
 	}
 }
-
-

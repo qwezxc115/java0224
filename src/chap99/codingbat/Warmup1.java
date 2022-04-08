@@ -1,37 +1,21 @@
 package chap99.codingbat;
 
 public class Warmup1 {
-	public int close10(int a, int b) {
-		int diffa = Math.abs(10 - a);
-		int diffb = Math.abs(10 - b);
 
-		if (diffa < diffb) {
+	public int close10(int a, int b) {
+		int adiff = Math.abs(a - 10);
+		int bdiff = Math.abs(b - 10);
+
+		if (adiff < bdiff) {
 			return a;
-		} else if (diffa > diffb) {
+		} else if (bdiff < adiff) {
 			return b;
 		} else {
 			return 0;
 		}
 	}
 
-	public String notString(String str) {
-
-		String front = "";
-
-		if (str.length() >= 3) {
-			front = str.substring(0, 3);
-		}
-
-		if (front.equals("not")) {
-			return str;
-		} else {
-			return "not " + str;
-		}
-
-	}
-
 	public boolean posNeg(int a, int b, boolean negative) {
-
 		if (negative) {
 			return a < 0 && b < 0;
 		} else {
@@ -40,8 +24,13 @@ public class Warmup1 {
 	}
 
 	public boolean nearHundred(int n) {
-		// return (n >= 90 && n <= 110) || (n >= 190 && n <= 210);
-		return Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10;
+		if (n >= 90 && n <= 110) {
+			return true;
+		} else if (n >= 190 && n <= 210) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public boolean makes10(int a, int b) {

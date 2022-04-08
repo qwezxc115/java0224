@@ -10,7 +10,7 @@ public class App07 {
 		Object o3 = new String("hello");
 		
 		Scanner scanner = new Scanner(System.in);
-		Object o4 = scanner;
+		Object o4 = new scanner;
 		Object o5 = new Scanner("");
 		
 	}

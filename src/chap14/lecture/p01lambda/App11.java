@@ -11,10 +11,10 @@ public class App11 {
 		list1.add("hello");
 		list1.add("jsp");
 		list1.add("friday");
-		
+
 		list1.removeIf((e) -> e.startsWith("j"));
 		System.out.println(list1.size());
-		
+
 		System.out.println(list1);
 	}
 }

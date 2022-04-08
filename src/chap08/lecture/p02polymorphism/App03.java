@@ -13,7 +13,7 @@ public class App03 {
 		otherMethod(new MyClass3());
 		otherMethod(new MyClass4());
 	}
-	
+
 	public static void otherMethod(MyInterface3 param) {
 		param.method1();
 	}
@@ -24,6 +24,7 @@ interface MyInterface3 {
 }
 
 class MyClass3 implements MyInterface3 {
+
 	@Override
 	public void method1() {
 		System.out.println("재정의한 추상메소드1");
@@ -31,12 +32,10 @@ class MyClass3 implements MyInterface3 {
 }
 
 class MyClass4 implements MyInterface3 {
+
 	@Override
 	public void method1() {
 		System.out.println("마이클래스4 에서 재정의한 메소드1");
 	}
+
 }
-
-
-
-

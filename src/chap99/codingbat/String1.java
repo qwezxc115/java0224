@@ -1,15 +1,13 @@
 package chap99.codingbat;
 
 public class String1 {
+
 	public String seeColor(String str) {
 		if (str.indexOf("red") == 0) {
 			return "red";
-		}
-
-		if (str.indexOf("blue") == 0) {
+		} else if (str.indexOf("blue") == 0) {
 			return "blue";
 		}
-
 		return "";
 	}
 
@@ -33,14 +31,13 @@ public class String1 {
 		int middle = str.length() / 2;
 
 		return str.substring(middle - 1, middle + 2);
-
 	}
 
 	public String nTwice(String str, int n) {
-		String front = str.substring(0, n);
-		String end = str.substring(str.length() - n);
+		String a = str.substring(0, n);
+		String b = str.substring(str.length() - n);
 
-		return front + end;
+		return a + b;
 	}
 
 	public String firstTwo(String str) {
@@ -49,4 +46,5 @@ public class String1 {
 		}
 		return str.substring(0, 2);
 	}
+
 }

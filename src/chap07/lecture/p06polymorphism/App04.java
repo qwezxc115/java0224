@@ -15,8 +15,8 @@ public class App04 {
 		method(new StreetCat());
 	}
 	
-	public static void method(Animal animal) {
-		animal.breathe();
-		animal.cry();
+	public static void method(Animal aniaml) {
+		aniaml.breathe();
+		aniaml.cry();
 	}
 }

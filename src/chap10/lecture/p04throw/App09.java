@@ -1,6 +1,8 @@
 package chap10.lecture.p04throw;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class App09 {
 	public static void main(String[] args) throws Exception {
@@ -12,6 +14,5 @@ public class App09 {
 		fr.read(); // IOException
 
 		Class.forName(""); // ClassNotFoundException
-
 	}
 }

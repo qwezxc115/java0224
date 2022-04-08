@@ -8,6 +8,7 @@ public class App01 {
 		
 		Computer c2 = new Computer();
 		c2.execute();
-//		c2.otherExecute(); // xxx
+//		c2.otherExecute();
+		
 	}
 }

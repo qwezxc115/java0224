@@ -9,12 +9,12 @@ public class App01 {
 			e.printStackTrace();
 		}
 	}
-	
+
 	private static void method1(int value) throws ValueOutOfBoundsException {
 		if (value > 100) {
-			throw new ValueOutOfBoundsException("value : " + value);
+			throw new ValueOutOfBoundsException("value :" + value);
 		}
-		
-		System.out.println("실행 흐름 이어감....");
+
+		System.out.println("실행 흐름 이어감...");
 	}
 }

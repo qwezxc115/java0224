@@ -8,8 +8,8 @@ public class App08 {
 		Animal animal = new Chihuahua();
 		animal.breathe();
 		animal.cry();
-		
-		// angry 메소드 실행하고 싶다.
+
+		// angry 메소드를 실행하고 싶다.
 		Chihuahua chihuahua = (Chihuahua) animal; // 강제 형변환 (casting)
 		chihuahua.angry();
 	}

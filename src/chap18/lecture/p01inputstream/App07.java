@@ -9,12 +9,11 @@ import java.util.Arrays;
 public class App07 {
 	public static void main(String[] args) {
 		// Exception
-
 		String path = "picture/다형성01.png";
 
-		// try-with-resource 
+		//try-with-resource
 		try (
-				// try block에서 사용하고 꼭 닫아야(close)하는 객체 선언/초기화 코드
+				// try block에서 사용하고 꼭 닫아야(close)하는 객체 초기화
 				// 여기서 선언된 타입은 AutoCloseable 타입이어야 함
 				InputStream is = new FileInputStream(path);
 				InputStream is2 = new FileInputStream("");
@@ -36,6 +35,5 @@ public class App07 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 }

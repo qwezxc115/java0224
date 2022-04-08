@@ -1,4 +1,4 @@
-package chap08.book.exercise.p04;
+package chap08.book.Exercise.p04;
 
 public class MySqlDao implements DataAccessObject {
 

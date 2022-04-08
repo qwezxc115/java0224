@@ -13,19 +13,11 @@ public class App02 {
 		animal1.breathe();
 		animal2.breathe();
 		
-		animal1.cry(); // 실제 인스턴스의 메소드가 실행 ***********
-		animal2.cry(); // 실제 인스턴스의 메소드가 실행 ***********
+		// 자식 클래스의 메소드가 호출된다.
+		animal1.cry(); // 실제 인스턴스의 메소드가 실행 *******
+		animal2.cry(); // 실제 인스턴스의 메소드가 실행 *******
 		
 		Animal animal3 = new Canine();
 		animal3.cry(); // 실제 인스턴스의 메소드가 실행
-		
 	}
 }
-
-
-
-
-
-
-
-

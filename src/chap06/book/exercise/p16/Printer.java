@@ -1,21 +1,19 @@
-package chap06.book.exercise.p16;
+package chap06.book.Exercise.p16;
 
 public class Printer {
-
-	public void println(int i) {
-		System.out.println(i);
+	void println(int x) {
+		System.out.println(x);
 	}
 
-	public void println(boolean b) {
+	void println(boolean b) {
 		System.out.println(b);
 	}
 
-	public void println(double d) {
+	void println(double d) {
 		System.out.println(d);
 	}
 
-	public void println(String string) {
-		System.out.println(string);
+	void println(String s) {
+		System.out.println(s);
 	}
-
 }

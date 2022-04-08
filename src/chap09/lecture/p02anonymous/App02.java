@@ -2,7 +2,6 @@ package chap09.lecture.p02anonymous;
 
 public class App02 {
 	public static void main(String[] args) {
-		// 지역 클래스 (local class)
 		class MyLocalClass1 implements MyInterface1 {
 			@Override
 			public void method1() {
@@ -12,6 +11,5 @@ public class App02 {
 		
 		MyInterface1 o1 = new MyLocalClass1();
 		o1.method1();
-		
 	}
 }

@@ -8,7 +8,7 @@ public class App01 {
 		System.out.println(s.length());
 		
 		String t = null;
-		System.out.println(t.length()); // NullPointerException
+		System.out.println(t.length()); // NullPointerExcetion
 		
 		System.out.println("프로그램 계속 실행.....");
 	}

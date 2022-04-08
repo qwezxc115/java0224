@@ -13,14 +13,6 @@ public class App07 {
 		Animal animal = chihuahua;
 		animal.breathe();
 		animal.cry();
-//		animal.angry(); // xxx
+//		animal.angry(); // xxx 
 	}
 }
-
-
-
-
-
-
-
-

@@ -11,19 +11,18 @@ public class App14 {
 		String s3 = App14.<String>method3("java");
 		String s4 = method3("java");
 	}
-
 	// method에 type parameter을 리턴 타입 전에 추가하면
 	// generic method
+	
 	public static <T> void method(T param) {
 		
 	}
 	
 	public static <T> T method2() {
-		
 		return null;
 	}
 	
-	public static <T> T method3(T param) {
+	public static <T> T method3 (T param) {
 		return null;
 	}
 }

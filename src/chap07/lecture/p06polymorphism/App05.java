@@ -28,23 +28,23 @@ public class App05 {
 		animal5.breathe();
 		animal5.cry();
 	}
-	
+
 	public static Animal method1() {
 		return new Animal();
 	}
-	
+
 	public static Animal method2() {
 		return new Canine();
 	}
-	
+
 	public static Animal method3() {
 		return new Feline();
 	}
-	
+
 	public static Animal method4() {
 		return new Chihuahua();
 	}
-	
+
 	public static Animal method5() {
 		return new StreetCat();
 	}

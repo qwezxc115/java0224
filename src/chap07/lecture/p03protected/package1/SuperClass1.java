@@ -13,5 +13,4 @@ public class SuperClass1 {
 	void defaultMethod() {
 		System.out.println("패키지 프라이빗 메소드");
 	}
-
 }

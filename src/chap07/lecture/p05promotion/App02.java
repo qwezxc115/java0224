@@ -10,6 +10,7 @@ public class App02 {
 		method1(o3);
 		method1(o2); // 자동 타입변환
 		method1(new SubClass1()); // 자동 타입변환
+		
 	}
 	
 	public static void method1(SuperClass1 param) {

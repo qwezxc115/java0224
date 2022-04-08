@@ -10,7 +10,7 @@ public class App03 {
 	public static void main(String[] args) throws Exception {
 		String name = "src/chap18/lecture/p03reader/App03.java";
 		Reader rd = new FileReader(name);
-		
+
 		System.out.println((char) rd.read());
 		System.out.println((char) rd.read());
 		System.out.println((char) rd.read());
@@ -26,14 +26,7 @@ public class App03 {
 		System.out.println((char) is.read());
 		System.out.println((char) is.read());
 		
+		
 		is.close();
 	}
 }
-
-
-
-
-
-
-
-

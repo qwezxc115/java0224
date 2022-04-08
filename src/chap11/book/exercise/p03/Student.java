@@ -1,4 +1,4 @@
-package chap11.book.exercise.p03;
+package chap11.book.Exercise.p03;
 
 public class Student {
 	private String studentNum;
@@ -6,7 +6,7 @@ public class Student {
 	public Student(String studentNum) {
 		this.studentNum = studentNum;
 	}
-	
+
 	public String getStudentNum() {
 		return studentNum;
 	}
@@ -35,8 +35,5 @@ public class Student {
 			return false;
 		return true;
 	}
-	
-	// hashCode, equals
-	
-	
+
 }

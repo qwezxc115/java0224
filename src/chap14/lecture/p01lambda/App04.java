@@ -13,10 +13,11 @@ interface MyInterface41 {
 //@FunctionalInterface
 interface MyInterface42 {
 	void method2();
+
 	void method3();
 }
 
 //@FunctionalInterface
 interface MyInterface43 {
-	
+
 }

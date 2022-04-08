@@ -10,9 +10,10 @@ public class App10 {
 		list1.add("spring");
 		list1.add("hello");
 		list1.add("jsp");
-		list1.add("friday");
+		list1.add("firday");
+
+		list1.replaceAll(c -> c.toUpperCase()); // 변환
 		
-		list1.replaceAll(c ->  c.toUpperCase());
-		list1.forEach(e -> System.out.println(e));
+		list1.forEach(e -> System.out.println(e)); // 변환 출력
 	}
 }

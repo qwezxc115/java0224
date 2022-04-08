@@ -22,9 +22,8 @@ class MyThread111 implements Runnable {
 			toolkit.beep();
 
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -38,9 +37,8 @@ class MyThread112 implements Runnable {
 			System.out.println("띠링");
 
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

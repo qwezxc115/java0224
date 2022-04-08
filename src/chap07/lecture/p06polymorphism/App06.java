@@ -1,5 +1,4 @@
 package chap07.lecture.p06polymorphism;
-
 import chap07.lecture.p99polymorphism_class.Animal;
 import chap07.lecture.p99polymorphism_class.Canine;
 import chap07.lecture.p99polymorphism_class.Chihuahua;
@@ -12,25 +11,24 @@ public class App06 {
 		Animal a1 = o1.getAnimal1();
 		a1.breathe();
 		a1.cry();
-		
+
 		Animal a2 = o1.getAnimal2();
 		a2.breathe();
 		a2.cry();
-		
+
 		Animal a3 = o1.getAnimal3();
 		a3.breathe();
 		a3.cry();
-		
+
 		Animal a4 = o1.getAnimal4();
 		a4.breathe();
 		a4.cry();
-		
+
 		Animal a5 = o1.getAnimal5();
 		a5.breathe();
 		a5.cry();
-		
+
 	}
-	
 }
 
 class MyClass06 {
@@ -39,7 +37,7 @@ class MyClass06 {
 	private Animal animal3;
 	private Animal animal4;
 	private Animal animal5;
-	
+
 	MyClass06() {
 		animal1 = new Animal();
 		animal2 = new Canine();
@@ -67,7 +65,5 @@ class MyClass06 {
 	public Animal getAnimal5() {
 		return animal5;
 	}
-	
-	
-	
+
 }

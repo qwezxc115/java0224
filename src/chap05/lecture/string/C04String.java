@@ -2,7 +2,7 @@ package chap05.lecture.string;
 
 public class C04String {
 	public static void main(String[] args) {
-		// char + String 
+		// char + string
 		char c1 = '가';
 		String s1 = "나";
 		

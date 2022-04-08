@@ -9,7 +9,7 @@ public class App06 {
 
 			System.out.println(r);
 		} catch (RuntimeException e) {
-			System.out.println("런타임익셉션 발생");
+			System.out.println("런타입익셉션 발생");
 		}
 		// catch 블럭 여러개 작성시
 		// 하위타입보다 상위타입을 아래에 작성

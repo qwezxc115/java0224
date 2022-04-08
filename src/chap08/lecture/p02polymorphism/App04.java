@@ -6,7 +6,7 @@ public class App04 {
 	public static void main(String[] args) {
 		Chihuahua chihuahua = new Chihuahua();
 		Pet pet1 = chihuahua;
-		
+
 		Cat cat = new Cat();
 		Pet pet2 = cat;
 		
@@ -14,7 +14,7 @@ public class App04 {
 		pet2.roll();
 		
 		Tiger tiger = new Tiger();
-//		Pet pet3 = tiger; // xxx
+//		Pet pet3 = tiger; // xxx 
 		
 		Wolf wolf = new Wolf();
 //		Pet pet4 = wolf; // xxx
@@ -23,16 +23,10 @@ public class App04 {
 		method(pet2);
 		method(new Chihuahua());
 		method(new Cat());
+		
 	}
 	
 	public static void method(Pet pet) {
 		pet.roll();
 	}
 }
-
-
-
-
-
-
-

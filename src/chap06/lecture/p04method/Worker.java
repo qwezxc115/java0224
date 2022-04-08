@@ -9,7 +9,6 @@ public class Worker {
 	
 	// 메소드명 : lowerCamelCase
 	void work() {
-		System.out.println(name + "이 일합니다");
+		System.out.println(name + "이(가) 일합니다.");
 	}
-	
 }

@@ -1,5 +1,6 @@
 package chap10.lecture.p04throw;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
